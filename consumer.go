@@ -7,10 +7,7 @@ import (
 	"context"
 	"fmt"
 	"time"
-	"sync"
 )
-
-var waitGroup sync.WaitGroup
 
 func main() {
 	topic := "testTopic"
